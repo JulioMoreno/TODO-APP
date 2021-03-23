@@ -1,0 +1,35 @@
+.task-container {
+  color: #fff;
+  background: #383E4A;
+  border: solid 3px #44b8b3;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 245px;
+  width: 39%;
+}
+
+.item-container {
+  font-weight: 700;
+  color: #ffffff;
+  border: solid 3px #45b5b7;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 245px;
+  width: 39%;
+  background: linear-gradient(to right, rgb(67, 211, 151), rgb(69, 175, 189));
+}
+
+.row-task {
+  padding: 10px 20px 10px 20px;
+  margin-left: 10px;
+}
+
+.row-action {
+  padding: 10px 20px 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
